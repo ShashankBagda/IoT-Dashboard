@@ -1,0 +1,180 @@
+/* device.css */
+
+/* Sidebar */
+
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.sidebar {
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.clear_filter {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.clear_filter:hover {
+    text-decoration: underline;
+}
+.edit-btn {
+	background-color: #4d194d;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+  }
+  
+  .edit-btn:hover {
+	background-color: #4d194d;
+  }
+  
+  .delete-btn {
+	background-color: #ef233c;
+	color:#fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+	background-color: #ffd500;
+  }
+
+
+  
+
+  h1 {
+	text-align: center;
+}
+.content{
+	width: 60%;
+	margin-bottom: 30px;
+	height: 50%;
+	background-color: #eee;
+	box-shadow: 0px 2px 10px #1b263b;
+	margin-left: 280px;
+	padding: 20px;
+	border-radius: 10px;
+	}
+
+table {
+	border: 1px ;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-radius: 5px;
+color: #000;
+}
+
+th,
+td {
+	border: 1px;
+	padding: 10px;
+	border-radius: 5px; /* Added border-radius for rounded borders */
+}
+
+th {
+	background-color: #1e2749;
+	color: #fff;
+}
+
+tr:nth-child(even) {
+	background-color: #e4d9ff;
+
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+input[type="text"],
+input[type="submit"] {
+	padding: 5px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+.edit-btn {
+background-color: #4d194d;
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.edit-btn:hover {
+background-color: #4d194d;
+}
+
+.delete-btn {
+background-color: #ef233c;
+color:#fff;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.delete-btn:hover {
+background-color: #ffd500;
+}
